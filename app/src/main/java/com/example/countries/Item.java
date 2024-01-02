@@ -5,9 +5,7 @@ public class Item {
 
     public static final Item[] items = {
             new Item("Country Population"),
-            new Item("Country Currency"),
-            new Item("Country Capital"),
-            new Item("Country Flag")
+            new Item("Country Currency")
     };
 
     public Item() {
