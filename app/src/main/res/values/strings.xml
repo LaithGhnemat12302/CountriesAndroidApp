@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Countries</string>
+    <string name="login">Login</string>
+    <string name="username">Username:</string>
+    <string name="enter_your_username">Enter Username</string>
+    <string name="password">Password:</string>
+    <string name="enter_your_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="sign_in">Sign In</string>
+    <string name="you_don_t_have_an_account">You don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <!-- _______________________________________________________________________________________________________ -->
+    <string name="please_fill_the_following">Please fill the following:</string>
+    <string name="email">Email:</string>
+    <string name="enter_your_email">Enter Email</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="enter_phone_number">Enter Phone</string>
+    <string name="confirm_your_password">Confirm Password:</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="you_have_already_an_account">You Have Already An Account?</string>
+    <string name="title_activity_country_population">CountryPopulation</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- _______________________________________________________________________________________________________ -->
+    <string name="country_population">Country Population</string>
+    <string name="enter_country">Enter Country:</string>
+    <string name="hint_country_name">Country Name</string>
+    <string name="hint_city_name">City Name</string>
+    <string name="get_population">Get Population</string>
+    <string name="population">Population</string>
+    <string name="enter_city">Enter City:</string>
+    <string name="choose_one_of_this_list_please">Choose one of this list please</string>
+    <!-- _______________________________________________________________________________________________________ -->
+    <string name="country_currency">Country Currency</string>
+    <string name="get_currency">Get Currency</string>
+    <string name="currency">Currency</string>
+    <string name="select_country" />
+    <string name="select_city" />
+
+
+</resources>

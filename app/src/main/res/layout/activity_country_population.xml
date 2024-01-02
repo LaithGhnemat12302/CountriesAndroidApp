@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7b95e0"
+    tools:context=".CountryPopulation"
+    >
+    <!-- __________________________________________________________________________________________________________________ -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="@string/country_population"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        />
+    <!-- __________________________________________________________________________________________________________________ -->
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:prompt="@string/select_country"
+        />
+    <!-- __________________________________________________________________________________________________________________ -->
+    <Spinner
+        android:id="@+id/spinnerCity"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:prompt="@string/select_city"
+        />
+    <!-- __________________________________________________________________________________________________________________ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/getPopulation"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="@string/get_population"
+            android:onClick="btnGetPopulation"
+            android:backgroundTint="#3140e8"
+            />
+
+        <EditText
+            android:id="@+id/edtPopulation"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:hint="@string/population"
+            android:inputType="text"
+            android:textColor="@color/black"
+            />
+
+        </LinearLayout>
+
+
+</LinearLayout>

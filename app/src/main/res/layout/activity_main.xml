@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7b95e0"
+    tools:context=".MainActivity"
+    >
+    <!-- __________________________________________________________________________________________________________________ -->
+    <TextView
+        style="@style/textViewsStyle"
+        android:layout_width="267dp"
+        android:layout_height="156dp"
+        android:layout_margin="50dp"
+        android:text="@string/login"
+        android:textSize="120dp"
+        android:textColor="@color/black"
+        />
+    <!-- __________________________________________________________________________________________________________________ -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/username"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1000dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enter_your_username"
+            android:inputType="text"
+            android:textColor="@color/black" />
+    </TableRow>
+    <!-- __________________________________________________________________________________________________________________ -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/password"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            />
+    </TableRow>
+    <!-- __________________________________________________________________________________________________________________ -->
+    <CheckBox
+        android:id="@+id/chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/remember_me"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+    <!-- __________________________________________________________________________________________________________________ -->
+    <Button
+        style="@style/buttonsStyle"
+        android:id="@+id/btnSignIn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="btnSignIn"
+        android:text="@string/sign_in"
+        android:backgroundTint="#3140e8"
+        />
+    <!-- __________________________________________________________________________________________________________________ -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_don_t_have_an_account"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:layout_marginLeft="100dp"
+            android:onClick="onSignUpClick"
+            />
+    </TableRow>
+</TableLayout>
